@@ -26,13 +26,32 @@ def collatz_read(s):
 
 
 def collatz_eval(i, j):
-    """
-    i the beginning of the range, inclusive
-    j the end       of the range, inclusive
-    return the max cycle length of the range [i, j]
-    """
-    # <your code>
-    return 1
+    
+    if (j >= i):
+        start = i
+        stop = j + 1
+    else:
+        start = j
+        stop = i + 1
+
+    count = [1]
+
+    for i in range (start, stop, 1):
+        tempCount = 1
+
+        while i != 1:
+            if ( i % 2 ) == 1:
+                i = (3*i) + 1
+                tempCount += 1
+            else:
+                i = i/2
+                tempCount += 1
+
+        count.append(tempCount)
+
+
+
+    return max(count)
 
 # -------------
 # collatz_print
