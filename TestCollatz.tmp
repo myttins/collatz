@@ -44,6 +44,6 @@ Traceback (most recent call last):
 TypeError: initial_value must be unicode or None, not str
 
 ----------------------------------------------------------------------
-Ran 10 tests in 0.104s
+Ran 10 tests in 0.094s
 
 FAILED (errors=5)
