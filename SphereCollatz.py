@@ -26,16 +26,10 @@ def collatz_read(s):
 # ------------
 
 def collatz_help_eval(i,j):
-    
-    if i == 0:
-        i = 1
 
-    if (j >= i):
-        start = i
-        stop = j + 1
-    else:
-        start = j
-        stop = i + 1
+
+    start = i
+    stop = j
 
     count = [1]
 
@@ -44,7 +38,7 @@ def collatz_help_eval(i,j):
 
         while i != 1:
             if ( i % 2 ) == 1:
-                i = (3*i) + 1
+                i = (3 * i) + 1
                 tempCount += 1
             else:
                 i = i/2

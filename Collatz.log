@@ -1,3 +1,39 @@
+commit 16a608612baa87a8fe9ab323858ed7719859be06
+Author: = <kevin.li128@gmail.com>
+Date:   Tue Feb 12 20:23:43 2019 -0600
+
+    Sphere acceptance
+
+commit 216b32701d7bef421c1fb2fca9a23772830b0185
+Author: = <kevin.li128@gmail.com>
+Date:   Tue Feb 12 20:01:52 2019 -0600
+
+    implement cache optimization 1
+
+commit d63278d7fc7a697229ec6a354f1ea6db4c3bc917
+Author: = <kevin.li128@gmail.com>
+Date:   Mon Feb 11 19:29:12 2019 -0600
+
+    collatz eval solved
+
+commit 18821b4dfd60e954afeeb9c8042c7dc7b4c41eb7
+Author: = <kevin.li128@gmail.com>
+Date:   Mon Feb 11 18:59:58 2019 -0600
+
+    added 3 unit tests for each function
+
+commit ef5f69687f404bcb85a4a37bf2c1eb3598ea9c74
+Author: = <kevin.li128@gmail.com>
+Date:   Mon Feb 11 18:17:29 2019 -0600
+
+    gitlab ci
+
+commit 4eccc8db643ce7ff7dc07875c9976d974d5b885d
+Author: = <kevin.li128@gmail.com>
+Date:   Mon Feb 11 18:00:37 2019 -0600
+
+    after running make test
+
 commit 3f2313966b1bcc2cfcae0a5472a914fc09bb451a
 Author: = <kevin.li128@gmail.com>
 Date:   Mon Feb 11 17:29:16 2019 -0600

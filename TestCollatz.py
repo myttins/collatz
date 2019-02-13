@@ -42,16 +42,16 @@ class TestCollatz (TestCase):
         self.assertEqual(v, 20)
 
     def test_eval_2(self):
-        v = collatz_eval(100, 200)
-        self.assertEqual(v, 125)
+        v = collatz_eval(7, 7)
+        self.assertEqual(v, 17)
 
     def test_eval_3(self):
-        v = collatz_eval(201, 210)
-        self.assertEqual(v, 89)
+        v = collatz_eval(5000, 2000)
+        self.assertEqual(v, 238)
 
     def test_eval_4(self):
-        v = collatz_eval(900, 1000)
-        self.assertEqual(v, 174)
+        v = collatz_eval(1, 1000000)
+        self.assertEqual(v, 525)
 
     # -----
     # print
@@ -77,9 +77,7 @@ class TestCollatz (TestCase):
         r = StringIO("1 10\n100 200\n201 210\n900 1000\n")
         w = StringIO()
         collatz_solve(r, w)
-        self.assertEqual(
-            w.getvalue(), "1 10 20\n100 200 125\n201 210 89\n900 1000 174\n")
-
+        self.assertEqual(w.getvalue(), "1 10 20\n100 200 125\n201 210 89\n900 1000 174\n")
 
     def test_solve_2(self):
         r = StringIO("10 1\n")
@@ -89,11 +87,11 @@ class TestCollatz (TestCase):
             w.getvalue(), "10 1 20\n")
 
     def test_solve_3(self):
-        r = StringIO("9 9\n")
+        r = StringIO("1000000 9\n")
         w = StringIO()
         collatz_solve(r, w)
         self.assertEqual(
-            w.getvalue(), "9 9 20\n")
+            w.getvalue(), "1000000 9 525\n")
 
 # ----
 # main
