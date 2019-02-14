@@ -1,3 +1,15 @@
+commit d632ef44ec4abe10d16e529852fd0af00ad3248f
+Author: = <kevin.li128@gmail.com>
+Date:   Thu Feb 14 15:50:46 2019 -0600
+
+    deleted comments on makefile
+
+commit 5398633a575e16bfe5f9e4ff373b2af7b76a664b
+Author: Kaiwen Li <kaiwen@cs.utexas.edu>
+Date:   Thu Feb 14 15:30:54 2019 -0600
+
+    undo make file edit, modify testcollatz.out
+
 commit 78b23bd9a3eaaf6606582d597c2e2b77765a4c5d
 Author: = <kevin.li128@gmail.com>
 Date:   Thu Feb 14 14:49:36 2019 -0600
