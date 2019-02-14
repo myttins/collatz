@@ -9,10 +9,10 @@ FILES :=                              \
     RunCollatz.py                     \
     TestCollatz.out                   \
     TestCollatz.py                    \
-    cs329e-collatz-tests/kevin.li128-RunCollatz.in   \
-    cs329e-collatz-tests/kevin.li128-RunCollatz.out  \
-    cs329e-collatz-tests/kevin.li128-TestCollatz.out \
-    cs329e-collatz-tests/kevin.li128-TestCollatz.py  \
+   # cs329e-collatz-tests/kevin.li128-RunCollatz.in   \
+   # cs329e-collatz-tests/kevin.li128-RunCollatz.out  \
+   # cs329e-collatz-tests/kevin.li128-TestCollatz.out \
+   # cs329e-collatz-tests/kevin.li128-TestCollatz.py  \
 #=
 
 ifeq ($(shell uname), Darwin)          # Apple
